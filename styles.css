@@ -1,36 +1,60 @@
-/* Universal Styles */
 * {
     padding: 0;
     margin: 0;
 }
-/* /Universal Styles */
 
-/* Navigation Bar Styles */
-header {
+header,
+main,
+section {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-}
-
-header h3,
-nav li {
-    display: inline-flex;
-    padding: 0 5px 0 5px;
-}
-/* /Navigation Bar Styles */
-
-/* Main Section Styles */
-
-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
+    padding-top: 1%;
+    padding-bottom: 10%;
+    gap: 5%;
 }
 
-main div {
+ul {
+    display: flex;
+    list-style: none;
+}
+
+div h3 {
+    text-align: center;
+}
+
+.quote {
+    max-width: 80%;
+    text-align: right;
+}
+
+.quotation {
+    max-width: 60%;
+    padding: 3%;
+}
+
+
+.call {
+    background-color: royalblue;
+    margin-top: 10%;
+    padding: 0;
+}
+
+.call h3 {
+    text-align: initial;
+}
+
+.call div {
     padding: 5%;
 }
 
-/* /Main Section Styles */
+footer {
+    text-align: center;
+    padding: 3%;
+}
+
+
+
+
